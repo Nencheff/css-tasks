@@ -1,0 +1,63 @@
+h1 {
+	margin: 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+#categories {
+	width: 404px;
+	height: 538px;
+	background: #eeeeee;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.content {
+	width: 382px;
+	height: 118px;
+	border: 1px solid #999999;
+	margin-top: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #FFF;
+	font: 12px Verdana, sans-serif; 
+}
+.content img {
+	float: left;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border: 1px solid #9A9592;
+}
+.bold {
+	font-weight: bold;
+}
+.input-buttonL {
+    background-image:url(../images/listen.png);
+    color: white;
+    border-color: #b61717; 
+	width: 72px;
+	height: 24px;
+	text-align: right;	
+	float: right;
+	margin-right: 75px;
+	margin-top: -30px;
+}
+.input-buttonA {
+    background-image:url(../images/listen.png);
+    color: white;
+    border-color: #b61717; 
+	width: 60px;
+	height: 24px;
+	text-align: right;
+	float: right;
+	margin-right: 8px;
+	margin-top: -30px;	
+}
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}

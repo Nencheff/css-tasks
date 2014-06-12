@@ -1,0 +1,43 @@
+body {
+	background-color: #a9a9a9;
+}
+h1 {
+	color: #fafad2;
+	font-family: Times New Roman;
+	font-size: 48px;
+}
+body > header {
+    text-align: center;
+}
+article header  h1 {
+	font-size: 24px;
+}
+ul { 
+	list-style: none;
+}
+ul a {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul a.current {
+    background-color: #d3d3d3;
+}
+ul li:nth-child(4) a {
+    text-decoration: underline;
+}
+article p a {
+	text-decoration: none;
+	color: black;
+}
+body > footer {
+ text-align: center;
+ font-family: Arial;
+}
+article footer p {
+    font-size: 14px;
+}
+article p {
+	font-size: 18px;	
+}

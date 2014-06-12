@@ -1,0 +1,38 @@
+body {
+	background-color: #595959;
+	font-family: Arial;
+}
+a {
+	color: #dae2ae;
+	text-decoration: none;
+}
+td {
+	padding: 5px;
+}
+.ticket {
+	color: #a3b1b0;
+	font-size: 24px;
+}
+.lefttxt {
+	color: white;
+	font-style: italic;
+	width: 150px;
+}
+.answered {
+	color: orange;
+}
+.normltxt {
+	color: #acafa4;
+}
+.point {
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    background-color: #71b47a;
+}
+.righttxt {
+	color: red;
+}
+.point {
+	background:url(images/point.png) 1;
+}

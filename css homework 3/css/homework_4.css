@@ -1,0 +1,158 @@
+body, h1, h2, h3, dl, dt, dd, ul, li, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #F1F1F1;
+	font: 12px/1.2 Verdana, sans-serif;
+}
+.row {
+	overflow: hidden;
+	margin-left: 5px;
+}
+[class ^= "column"] {
+	float: left;
+}
+.container {
+	margin: 10px auto;
+	width: 732px;
+	border: 1px solid #000;
+}
+.column3 {
+	width: 450px;
+}
+
+.nav {
+	margin-top: 10px;
+}
+.nav .links { 
+	margin-bottom: 10px;
+}
+.links  dt { 
+	text-decoration: none;
+	color: #900b09;
+	font-weight: bold;
+}
+a { 
+color: #961917;
+}
+.links dd a {
+	color: #000;
+}
+.inline li { 
+	display: inline-block;
+}
+.links a {
+	text-decoration: none;
+	color: black;
+}
+.links a:hover {
+	text-decoration: underline;
+}
+.arrows a {
+	display: block;
+	padding: 3px;
+	width: 100px;
+	border: 1px solid #2A2A2A;
+	color: #0F0F0F;
+	text-align: center;
+	text-decoration: none;
+}
+.arrows li {
+	position: relative;
+	margin-left: 5px;
+}
+.prev::after, .next::after {
+	position: absolute;
+	top: 3px;
+}
+.prev::after {
+	left: 3px;
+	content: "◄";
+}
+.next::after {
+	right: 3px;
+	content: "►";
+}
+.content {
+	border: 1px solid #979797;
+	margin-top: 2px;
+	background-color: white;
+	padding-bottom: 25px;
+}
+h1 {
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+h2 {
+	background-color: #808080;
+	color: white;
+	font-size: 12px;
+	padding: 2px;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+p {
+	margin-right: 2px;
+	margin-left: 4px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+article > div > h1 {
+	font-size: 20px;
+	padding: 10px;
+}
+.pull-left {
+	float: left;
+	margin-left: 2px;	
+	padding-top: 10px;
+	margin-right: 4px;	
+}
+aside {
+    float: left;
+    font-size: 13px;
+	padding-left: 2px;
+    text-align: center;
+	margin-top: 2px;
+}
+h3{
+    background: none repeat scroll 0 0 #808080;
+    color: #FFFFFF;
+    padding-bottom: 2px;
+	font-size: 12px;
+}
+input[type="text"] {
+	width: 90px;
+	height: 20px;
+	border: 1px solid #75a2c2;
+	margin-bottom: 3px;
+}
+aside  div {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #808080;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+	font-size: 10px;
+	width: 148px;
+}
+aside p {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #808080;
+    margin-bottom: 2px;
+    padding:4px;
+    text-align: center;
+	font-size: 12px;
+	width: 140px;
+	margin-left: 0px;
+}
+form button {
+    background: none repeat;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px 0 0;
+    width: 22px;
+}
+hr {
+	width: 98%;
+}

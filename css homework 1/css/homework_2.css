@@ -1,0 +1,40 @@
+table{
+	border-collapse:collapse;
+	font-family: Arial;
+	font-size: 16px;
+}
+thead{
+	padding: 6px;
+	color: white;
+	/* Source => http://www.colorzilla.com/gradient-editor/ */
+	background: #5dc206; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5dc206 0%, #53b606 50%, #4fb405 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5dc206), color-stop(50%,#53b606), color-stop(100%,#4fb405)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5dc206 0%,#53b606 50%,#4fb405 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5dc206 0%,#53b606 50%,#4fb405 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5dc206 0%,#53b606 50%,#4fb405 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5dc206 0%,#53b606 50%,#4fb405 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5dc206', endColorstr='#4fb405',GradientType=0 ); /* IE6-9 */
+}
+thead, td{
+	width: 150px;
+	padding: 7px;
+}
+tbody, td {
+	border: 1px solid #cdccb3;
+}
+table tr:nth-child(2n) {
+    background-color: #ececd8;
+}
+td.flag {
+   padding-left: 33px;
+}
+.Germany {
+	background:url(../images/germany.png) no-repeat 3px;
+}
+.Mexico {
+	background:url(../images/mexico.png) no-repeat 3px;
+}
+.ItsRainingAllTheTime {
+	background:url(../images/uk.png) no-repeat 3px;
+}

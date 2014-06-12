@@ -1,0 +1,60 @@
+body, ul, li {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style-type: none;
+  display: inline; }
+
+.thumbs {
+  height: 100px;
+  border: 2px solid black;
+  width: 190px;
+  margin-left: 8px;
+  margin-top: 8px;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1, 1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+  transform: scale(1, 1);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms; }
+
+.thumbs:hover {
+  opacity: .7;
+  -webkit-transform: scale(1.05, 1.07);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  z-index: 99; }
+
+#firstbig, #secondbig, #thirdbig, #fourthbig, #sixthbig, #fifthbig {
+  display: none; }
+
+input {
+  display: none; }
+  input:checked + label #firstbig {
+    display: block; }
+  input:checked + label #secondbig {
+    display: block; }
+  input:checked + label #thirdbig {
+    display: block; }
+  input:checked + label #fourthbig {
+    display: block; }
+  input:checked + label #fifthbig {
+    display: block; }
+  input:checked + label img {
+    border: 2px solid black;
+    margin-left: 8px;
+    max-height: 500px;
+    margin-bottom: 50px;
+    margin-top: 10px; }
+

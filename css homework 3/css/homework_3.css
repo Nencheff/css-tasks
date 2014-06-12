@@ -1,0 +1,66 @@
+body {
+	background: #3B3B3B;
+}
+div, fieldset, p {
+	margin: 5;
+}
+fieldset {
+	border: none;
+}
+div {
+	width: 680px;
+	background: #3B3B3B;
+	color: #A9A9A9;
+	font: 14px Verdana, sans-serif;
+	border: 1px solid #806850;
+	border-radius: 7px;
+	padding: 2px;
+}
+article  span{
+	color: white;
+}
+.member_login {
+	padding: 20px 20px 20px 60px;
+	background: url(../images/monitor.png) no-repeat 16px 9px,
+    -webkit-radial-gradient(ellipse farthest-corner,
+    transparent 0%, #343434 60%) no-repeat 55% 155%;
+
+	background: url(../images/monitor.png) no-repeat 16px 9px,
+    -moz-radial-gradient(ellipse farthest-corner,
+	transparent 0%, #343434 60% ) no-repeat 55% 155%;
+
+	background: url(../images/monitor.png) no-repeat 16px 9px,
+    -o-radial-gradient(ellipse farthest-corner,
+    transparent 0%, #343434 60%) no-repeat 55% 155%;
+
+	background: url(../images/monitor.png) no-repeat 16px 9px,
+    radial-gradient(ellipse farthest-corner,
+    transparent 0%, #343434 60%) no-repeat 55% 155%;
+				
+	-webkit-background-size: auto, 180% 45%;
+	-moz-background-size: auto, 180% 45%;
+	background-size: auto, 140% 45%;
+	background-color: #343434;
+	color: #fff;
+}
+.member_login legend, .member_login input, .member_login button {
+	float: left;
+	margin-left: 20px;
+}
+.member_login legend {
+	text-transform: lowercase;
+	font-size: 18px;
+}
+.btn_submit {
+	background: url('../images/red_button.png')  no-repeat;
+	width: 56px;
+	height: 28px;
+	color: white;
+	border: none;
+}
+.article { 
+	padding: 0 20px;
+}
+.article h1 {
+	color: yellow;
+}
